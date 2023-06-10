@@ -54,12 +54,12 @@ public class Main {
         button.click();
         WebElement gmail = driver.findElement(By.xpath("//input[@name='f']"));
         gmail.sendKeys("Canon Cat");
-        WebElement gmail1 = driver.findElement(By.xpath("//input[@type='submit']"));
-        gmail1.click();
+        WebElement gmail2 = driver.findElement(By.xpath("//input[@type='submit']"));
+        gmail2.click();
 
         System.out.println(button);
         System.out.println(gmail);
-        System.out.println(gmail1);
+        System.out.println(gmail2);
 
 
     }
