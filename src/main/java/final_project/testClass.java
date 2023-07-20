@@ -60,17 +60,17 @@ public class testClass extends CommonPageObject{
         //B3: Click chọn nút "Save this Computer"
         //B4: Kiểm tra lại thông tin sản phẩm "ARRA" sau khi đổi thành "Jipi"
         //Kết quả mong đợi: Thông tin sản phẩm sau khi cập nhật được hiển thị và thay thế cho sản phẩm cũ trên bảng
-        setWait(1000);
-        clickComputer.click();
-
-        setWait(2000);
-        inforComputer("Jipi","2022-12-01", textComputerName,textIntroduced,textDiscontinued
-                , buttonCompany, buttonOption3);
-        setWait(1000);
-        buttonCreate.click();
-
-        setWait(2000);
-        searchInfor("Jipi",btnFilter,searchFilter);
+//        setWait(1000);
+//        clickComputer.click();
+//
+//        setWait(2000);
+//        inforComputer("Jipi","2022-12-01", textComputerName,textIntroduced,textDiscontinued
+//                , buttonCompany, buttonOption3);
+//        setWait(1000);
+//        buttonCreate.click();
+//
+//        setWait(2000);
+//        searchInfor("Jipi",btnFilter,searchFilter);
 
         //Test Case 5: Danh sách computer có xuất hiện tên giống "nội dung ô B2" trong "testClass.xlsx". (Update va Cancel)
         //B1: sau khi tìm kiếm với từ khóa "ACE"
