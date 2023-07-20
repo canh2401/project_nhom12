@@ -58,7 +58,7 @@ public class testClass extends CommonPageObject{
         //B1: Click chọn sản phẩm "ACE"
         //B2: Cập nhật các thông tin mới cho sản phẩm
         //B3: Click chọn nút "Save this Computer"
-        //B4: Kiểm tra lại thông tin sản phẩm "ARRA" sau khi đổi thành "Jipi"
+        //B4: Kiểm tra lại thông tin sản phẩm "ACE" sau khi đổi thành "Jipi"
         //Kết quả mong đợi: Thông tin sản phẩm sau khi cập nhật được hiển thị và thay thế cho sản phẩm cũ trên bảng
         setWait(1000);
         clickComputer1.click();
