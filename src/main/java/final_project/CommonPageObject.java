@@ -26,7 +26,7 @@ public class CommonPageObject {
     public WebElement searchFilter ;
     @FindBy(how = How.XPATH, using = "//input[@id='searchsubmit']")
     public WebElement btnFilter;
-    @FindBy(how = How.XPATH, using = "//a[@href='/computers/355']")
+    @FindBy(how = How.XPATH, using = "//a[@href='/computers/351']")
     public WebElement clickComputer;
     @FindBy(how = How.XPATH, using = "//a[@href='/computers/318']")
     public WebElement clickACE;
